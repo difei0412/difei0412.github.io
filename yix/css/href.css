@@ -1,0 +1,56 @@
+*{
+	font-family: "微软雅黑";
+}
+.href_wenzi{
+	width: 1140px;
+	overflow: hidden;
+	padding: 30px;
+	margin: 0 auto;
+	}
+.href_ti{
+	color: #3b3b3b;
+	font-size: 40px;
+}
+.href_ni{
+	font-size: 30px;
+	margin-top: 5px;
+}
+.href_zi{
+	font-size: 18px;
+	color: #3b3b3b;
+	margin-top: 20px;
+	line-height: 34px;
+}
+.xl{
+	font-size: 20px;
+}
+.href_zi span{
+	color: #eb1010;
+}
+.href_jin{
+	font-size: 24px;
+	margin-top: 30px;
+	line-height: 40px;
+}
+.lis li{
+	margin-left: 25px;
+	list-style: decimal;
+}
+@media screen and (max-width: 1200px) {
+	.href_wenzi{
+		width: 90%;
+		
+	}
+	.href_ti{
+		font-size: 30px;
+	}
+	.href_ni{
+		font-size: 25px;
+	}
+	.href_zi{
+	font-size: 16px;
+	color: #3b3b3b;
+	margin-top: 20px;
+	line-height: 30px;
+}
+}

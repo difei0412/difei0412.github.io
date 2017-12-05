@@ -1,0 +1,92 @@
+.header{
+	height: 50px;
+	overflow: hidden;
+	position:fixed;
+}
+.header_xiao{
+	width: 90%;
+	height: 50px;
+	line-height:50px;
+	overflow: hidden;
+	padding: 0;
+	
+}
+.header_xiao .logo{
+	width:50%;
+	height:50px;
+	padding:10px 0;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	-o-box-sizing: border-box; 
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.header_xiao .logo img{
+	height:100%;
+	display:block;
+}
+.header_xiao ul{
+	width: 70%;
+	display: none;
+}
+.header_xiao ul li{
+	width: 10%;
+	margin-left: 4%;
+}
+
+.jiade{
+	width: 100%;
+	height: 50px;
+}
+.footer{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.footer_xiao1:first-child{
+	margin-left: 3%;
+}
+.footer_xiao{
+	width: 90%;
+	margin: 0 auto;
+	height: auto;
+	display: none;
+}
+.footer_xiao1{
+	width: 30%;
+	margin-left: 3%;
+	padding: 0;
+}
+.foot_call{
+	margin: 0;
+}
+.foot_ju{
+	margin: 0;
+}
+.footer_xiao1:nth-child(4){
+	margin-top: 20px;
+}
+.footer_xiao1:nth-child(6){
+	margin-top: 20px;
+}
+.foot_shu{
+	margin-top: 20px;
+	margin-left: 0;
+	display: none;
+}
+.footer_xia_xiao{
+	width: 90%;
+	margin: 0 auto;
+	height: auto;
+
+	line-break: 10px;
+}
+.footer_xia{
+	width: 100%;
+	line-height: 30px;
+	background: #080808;
+	
+}
+.footer_dianhua{
+	margin: 0;
+}

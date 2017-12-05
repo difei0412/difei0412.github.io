@@ -1,0 +1,185 @@
+.swiper-button-next, .swiper-button-prev{
+	width: 30px;
+	height: 50px;
+	display: none;
+}
+.swiper-container2 {
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto; 
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+.swiper-pagination{
+	display: none;
+}
+.index_zi{
+	height: auto;
+	padding-top: 20px;
+}
+.index_zi1{
+	width: 90%;
+	margin: 0 auto;
+}
+#serv .onload{
+	width: 100%;
+}
+#serv p.hhr{
+	width: 100%;
+}
+.index_zi2{
+	width: 90%;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 14px;
+}
+.index_don{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.index_don ul li{
+	width: 100%;
+}
+.index_an{
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.index_an1{
+	font-size: 20px;
+}
+.index_an2{
+	font-size: 20px;
+}
+.index_an2{
+	font-size: 16px;
+}
+.index_our_right{
+	width: 100%;
+	
+}
+.index_our{
+	overflow: hidden;
+}
+.index_our_right li{
+	width: 20%;
+}
+.index_our_left{
+	width: 90%;
+	height: auto;
+	/*overflow: hidden;*/
+	float: none;
+	height: 600px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.index_our_left dd{
+	font-size: 14px;
+}
+.index_tu_left{
+	float: none;
+	width: 100%;
+}
+.index_tu_right{
+	display: none;
+	width: 100%;
+	float: none;
+	text-align: center;
+}
+.index_tu_xiao{
+	width: 100%;
+	padding: 0;
+}
+.index_tu_right a{
+	display: block;
+	width: 100%;
+	float: none;
+	text-align: center;
+}
+.index_vi{
+	width: 100%;
+	text-align: center;
+}
+.index_vi_left{
+	width: 100%;
+}
+.index_vi_left3{
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.index_vi_right{
+	width: 100%;
+	margin: 0 auto;
+}
+.index_vi_right1{
+	width: 80%;
+	margin: 0 auto;
+}
+.index_vi_right{
+	background: url(../img/shouye111.png) no-repeat center;
+}
+.index_vi_right2{
+	left: -5px;
+	top: 25px;
+}
+.inde_hez3 li{
+	width: 50%;
+}
+.inde_hez3{
+	width: 90%;
+	overflow: hidden;
+	height: 88px;
+}
+.inde_hez4 li{
+	width: 50%;
+}
+.inde_hez4{
+	width: 90%;
+	overflow: hidden;
+	height: 88px;
+}
+.index_tai_left{
+	width: 90%;
+}
+.index_tai_right{
+	width: 90%;
+}
+#serv p.hhr span i {
+	float: left;
+	overflow: hidden;
+	font-size: 16px;
+	font-weight: normal;
+	color: #fff;
+	font-style: normal;
+}
+.zi{
+	float: left;
+	width: 25%;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+.zi span{
+	font-size: 16px;
+}
+.zuida{
+	width: 90%;
+	position: absolute;
+	z-index: 30;
+	margin: 0 auto;
+	bottom: 10px;
+	
+}
+.index_tu_left1{
+	text-align: center;
+}
+.swiper-container2 .swiper-slide{
+	height:auto;
+	line-height:auto;
+}
+.swiper-container2 .swiper-slide img{
+	width:auto;
+	max-width:100%;
+	max-height:100%;
+}

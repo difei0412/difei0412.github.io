@@ -1,0 +1,178 @@
+*{
+	font-family: "微软雅黑";
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.nav-wap{
+	display:none;
+}
+.header{
+	background: #0d0d0d;
+	width: 100%;
+	height: 130px;
+	position: fixed;
+	z-index: 999;
+	top: 0;
+}
+.header_xiao{
+	width: 1120px;
+	margin: 0 auto;
+	height: 130px;
+
+}
+.header .logo{
+	float:left;
+	width:30%;
+	padding-top:27px;
+}
+.header .logo img{
+	vertical-align:middle;
+	outline:none;
+	max-width:100%;
+	
+}
+#nav{
+	width:50%;
+	float:right;
+	height:130px;
+	line-height:130px;
+}
+#nav > li{
+	float:left;
+	display: block;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+	width:14%;
+}
+#nav > li:last-child{
+	margin-right:0;
+}
+#nav > li:hover ul{
+	display:block;
+}
+#nav > li > a{
+	font-size: 18px;
+	color: #FFFFFF;
+}
+#nav > li > a:hover{
+	color: #f1ca0a;
+	
+}
+.jiade{
+	width: 100%;
+	height: 130px;
+}
+.header ul li:hover{
+	color: #f1ca0a;
+}
+.footer{
+	width: 100%;
+	height: 414px;
+	background: #252525;
+}
+.footer_xiao{
+	width: 1120px;
+	padding-top: 70px;
+	height: 344px;
+	margin: 0 auto;
+}
+.footer_xiao1{
+	float: left;
+	margin-left: 90px;
+}
+.footer_xiao1:first-child{
+	margin: 0;
+}
+.footer_xiao1 li:first-child{
+	color: #d7b514;
+	font-size: 18px;
+}
+.footer_xiao1 li{
+	color: #8f8c8c;
+	font-size: 14px;
+	line-height: 30px;
+}
+.footer_xiao1 li:hover{
+	color: #d7b514;
+	cursor: pointer;
+}
+.foot_shu{
+	width: 1px;
+	height: 153px;
+	background: #fed533;
+	float: left;
+	margin-top: 17px;
+	margin-left: 90px;
+}
+.foot_call{
+	margin-left: 10px;
+}
+.footer_xia{
+	width: 100%;
+	height: 60px;
+	background: #1c1c1c;
+	text-align: center;
+	color: #8f8c8c;
+	font-size: 12px;
+	line-height: 60px;
+	letter-spacing: 1px;
+}
+.header_xiala{
+	z-index:999;
+	width: 100%;
+	background: #868686;
+	position: absolute;
+	left: 0;
+	top: 130px;
+	overflow: hidden;
+	display:none;
+	padding:0 9px;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	-o-box-sizing: border-box; 
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.header_xiala li{
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #FFFFFF;
+	height: 35px;
+	line-height: 35px;	
+	cursor: pointer;
+}
+.header_xiala li a{
+	color: #c0c0c0;
+}
+.header_xiala li:hover a{
+	color: #FFFFFF;
+}
+.header_xiala li:last-child{
+	border: none;
+}
+.top{
+				width: 50px;
+				height: 50px;
+				background: #000000;
+				opacity: 0.3;
+				color: #ffffff;
+				font-size: 20px;
+				text-align: center;
+				line-height: 50px;
+				position: fixed;
+				bottom: 60px;
+				right: 20px;]
+				cursor: pointer;
+			}
+			.top:hover{
+				opacity: 1;
+				cursor: pointer;
+				
+			}

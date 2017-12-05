@@ -1,0 +1,50 @@
+.header_xiao{
+	width: 90%;
+}
+.header_xiao .logo{
+	width: 30%;
+}
+.header_xiao #nav{
+	width: 55%;
+}
+.footer{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.footer_xiao1:first-child{
+	margin-left: 3%;
+}
+.footer_xiao{
+	width: 90%;
+	margin: 0 auto;
+	height: auto;
+}
+.footer_xiao1{
+	width: 30%;
+	margin-left: 3%;
+	padding: 0;
+}
+.foot_call{
+	margin: 0;
+}
+.foot_ju{
+	margin: 0;
+}
+.footer_xiao1:nth-child(4){
+	margin-top: 20px;
+}
+.footer_xiao1:nth-child(6){
+	margin-top: 20px;
+}
+.foot_shu{
+	margin-top: 20px;
+	margin-left: 0;
+	display: none;
+}
+.footer_xia_xiao{
+	width: 100%;
+	margin: 0 auto;
+	height: auto;
+	background: #080808;
+}

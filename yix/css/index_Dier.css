@@ -1,0 +1,94 @@
+.swiper-container{
+	height: auto;
+}
+.swiper-container2 {
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+.index_our_xiao{
+	width: 90%;
+}
+.index_our{
+	height: auto;
+}
+.index_our_right{
+	clear: both;
+	float: none;
+	margin: 0 auto;
+}
+.index_vi{
+	width: 90%;
+}
+.index_tai{
+	width: 90%;
+}
+.inde_hez3{
+	width: 90%;
+}
+.inde_hez4{
+	width: 90%;
+}
+.index_tai_left{
+	float: none;
+	margin: 0 auto;
+	border-top: none;
+}
+.index_tai_right{
+	float: none;
+	clear: both;
+	margin: 0 auto;
+}
+.index_lian {
+	height: auto;
+	padding-top: 120px;
+	padding-bottom: 80px;
+}
+.index_lian1{
+	height: auto;
+}
+.index_lian1 img{
+	width: 100%;
+}
+.index_lian2{
+	height: auto;
+}
+.index_lian2 img{
+	width: 100%;
+}
+.index_lian3{
+	height: auto;
+}
+.index_lian3 img{
+	width: 100%;
+}
+.index_hez img{
+	width: 100%;
+}
+.index_hez1{
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+.index_hez2 {
+	font-size: 16px;
+}
+.index_vi_right2{
+	left: 6;
+}
+.zi{
+	float: left;
+	width: 25%;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+.zi span{
+	font-size: 30px;
+}
+.index_our_left{
+	margin: 0 auto;
+	float: none;
+}

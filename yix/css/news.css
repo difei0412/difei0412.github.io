@@ -1,0 +1,168 @@
+.opinion-wapper{
+	width:1120px;
+	margin:80px auto;
+}
+.opinion-title{
+	width:100%;
+	border-bottom:1px #6b6b6b solid;
+	overflow:hidden;
+	/*padding:30px 0;*/
+	background:url(../img/m-pic2.png) no-repeat 350px center;
+}
+.opinion-title h2{
+	font-size:40px;
+	color:#ecb821;
+	font-weight:normal
+}
+.opinion-title h3{
+	margin:28px 0 0
+}
+.news-main{
+	text-align:center;
+	width:100%;
+	border-bottom:1px #ababab dashed;
+	padding:37px 0
+}
+.news-main:last-of-type{
+	border:none
+}
+.news-main h1{
+	text-align:left;
+	color:#808080;
+	font-size:24px;
+	font-weight:normal;
+	background:url(../img/point.png) no-repeat left 10px;
+	padding-left:24px;	
+		
+}
+.news-main.list h1{
+	background:url(../img/point.png) no-repeat left center;
+	height:30px;
+	line-height:30px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+}
+.news-main p{
+	text-align:left;
+	color:#808080;
+	font-size:14px;
+	line-height:26px;
+	margin-top:30px;
+}
+.news-main.list p{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+}
+.news-main img{
+	margin-top:20px;
+	max-width:100%;
+}
+.news-main .more{
+	width:100%;
+	text-align:center;
+	margin-top:40px;
+}
+.news-main .more a{
+	display:inline-block;
+	*display:inline-block;
+	width:85px;
+	height:22px;
+	text-align:center;
+	line-height:22px;
+	border:1px #262626 solid;
+	border-radius:5px;
+	color:#252525;
+	font-size:12px;
+	transition:background .3s;
+	-webkit-transition:background .3s;
+	-o-transition:background .3s;
+	-moz-transition:background .3s;
+}
+.news-main .more a:hover{
+	background:#262626;
+	color:#fff;
+}
+
+.page-wap{
+	display:none;
+}
+
+.page{
+	width:100%;
+	text-align:center;
+	margin-top:60px;
+	
+}
+.page li{
+	display:inline-block;
+	*display:inline-block;
+	font-size:16px;
+	color:#626262;
+	font-family: arial;	
+	padding:0 14px;
+	height:30px;
+	line-height:30px;
+}
+.page li.curpage{
+	color:#ffd60d;
+}
+.page li img{max-width:100%;vertical-align:middle}
+.page li a{
+	font-size:16px;
+	color:#626262;
+	font-family: arial;
+}
+.page li a:hover{
+	color:#ffd60d;
+}
+
+@media screen and (max-width:1200px) {
+	.opinion-wapper{
+		width:90%;
+	}
+}
+@media screen and (max-width:768px) {
+	.opinion-wapper{
+		width:96%;
+		margin:5% auto;
+	}
+	.opinion-title{
+		width:100%;
+		padding:5% 0;
+		background:url(../img/m-pic2.png) no-repeat right center;
+	}
+	.opinion-title h3 img{
+		width:50%;
+	}
+	.page{
+		display:none;
+	}
+	.page-wap{
+		display:block;
+		width:70%;
+		margin:0 auto 5%;
+	}
+	.page-wap ul {
+		overflow:hidden;
+	}
+	.page-wap ul li{
+		width:30%;
+		float:left;
+		height:30px;
+		border:1px #ccc solid;
+		border-radius:8px;
+		font-size:14px;
+		text-align:center;
+		line-height:30px;
+	}
+	.page-wap ul li:last-child{
+		float:right;
+	}
+	.page-wap ul li:hover{
+		border-color:#ffd60d;
+	}
+}

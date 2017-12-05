@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/ANLI.css"/>
+		<link rel="stylesheet" media="screen and (max-width:1300px)" href="css/header.css"/>
+		<link rel="stylesheet" media="screen and (max-width:980px)" href="css/headersmall.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" media="screen and (max-width:1300px)" href="css/index_Dier.css"/>
+		<link rel="stylesheet" media="screen and (max-width:780px)" href="css/index_Disan.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/swiper.min.js"></script>
+		<!--导航-->
+		<link rel="stylesheet" media="screen and (max-width:988px)" href="css/main.css"/>
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-easing-min-1.4.1.js"></script>
+		<style>
+			#shang{
+				width: 27px;
+				height: 27px;
+				background:url(img/left.png) no-repeat center center;
+				left: 50px;
+				
+			}
+			#shang:hover{
+				opacity: 1;
+			}
+			#xia:hover{
+				opacity: 1;
+			}
+			#xia{
+				width: 27px;
+				height: 27px;
+				background:url(img/right.png) no-repeat center center;
+				right: 50px;
+			}
+			#dui span{
+				width: 15px;
+				height: 15px;
+				background: #FFFFFF;
+			}
+			.index_tu_right:hover a{
+				transform: scale(1.2);
+				transition:  all 0.5s;
+			}
+			.top{
+				width: 50px;
+				height: 50px;
+				background: #000000;
+				opacity: 0.3;
+				color: #ffffff;
+				font-size: 20px;
+				text-align: center;
+				line-height: 50px;
+				position: fixed;
+				bottom: 60px;
+				right: 20px;]
+				cursor: pointer;
+			}
+			.top:hover{
+				opacity: 1;
+				cursor: pointer;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<!--头部开始-->
+		<div class="header">
+			<div class="header_xiao">
+				<div class="logo">
+					<img src="img/logo.png">
+				</div>
+				<ul id="nav">
+					<li><a href="index.html" style="color: #FFD60D;">首页</a></li>
+					<li><a href="fome.html">关于</a></li>
+					<li><a href="youshi.html">优势</a></li>
+					<li><a href="#">动态</a>
+						<ul class="header_xiala">
+							<li><a href="Look.html">观点</a></li>
+							<li><a href="New.html">新闻</a></li>
+						</ul>
+					</li>
+					<li><a href="config.html">服务</a></li>
+					<li><a href="Anli.html">案例</a></li>
+					<li><a href="Callme.html">联系</a></li>
+				</ul>				
+			</div>
+			<div class="nav-wap">
+				<div class="mobile-inner-header">
+					<div class="mobile-inner-header-icon mobile-inner-header-icon-out"><span></span><span></span><span class="sp1"></span></div>
+				</div>
+				<div class="mobile-inner-nav">
+					<ul>
+						<li><a href="index.html" style="color: #FFD60D;">首页</a></li>
+						<li><a href="fome.html">关于</a></li>
+						<li><a href="youshi.html">优势</a></li>
+						<li><a href="#">动态</a>
+							<ul>
+								<li><a href="Look.html">观点</a></li>
+								<li><a href="News.html">新闻</a></li>
+							</ul>
+						</li>
+						<li><a href="config.html">服务</a></li>
+						<li><a href="Anli.html">案例</a></li>
+						<li><a href="Callme.html">联系</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="jiade"></div>
+		<!--头部结束-->
+		<div class="index_linbo">
+			<div class="swiper-container">
+		        <div class="swiper-wrapper">
+		            <div class="swiper-slide">
+		            	<div class="zuida">
+					    	<div class="zi">
+					    		<span class="diyi"></span>
+					    		+媒介推广资源
+					    	</div>
+					    	<div class="zi">
+					    		<span class="dier"></span>
+					    		+产品内容
+					    	</div>
+					    	<div class="zi">
+					    		<span class="disan"></span>
+					    		+成功案例
+					    	</div>
+					    	<div class="zi">
+					    		传播人次高达
+					    		<span class="disi">5000</span>
+					    		多万
+					    	</div>
+				    	</div>
+		            	<img src="img/2.png">
+		            	
+		            </div>
+		            <div class="swiper-slide"><img src="img/1.jpg"></div>
+		            <div class="swiper-slide"><img src="img/3.jpg"></div>
+		        </div>
+		        <div class="swiper-pagination" id="dui"></div>
+		        <div class="swiper-button-prev" id="shang"></div>
+	        	<div class="swiper-button-next" id="xia"></div>
+	    	</div>
+	    	
+	    	
+		</div>
+		
+		<div class="index_zi">
+			<div class="index_zi1" id="serv">
+			    <div class="onload">
+			        <p class="hhr">
+			            <span><b><i>网络营销</i><em></em></b></span>
+			            <span><b><i><font color="#ffd60d" size="13px"/><strong style="font-size:60px;margin-top:-10px;position: relative;top: -5px;font-family: 'arial black';">8</strong></font></i><em></em></b></span>
+			            <span><b><i>大难题</i><em></em></b></span>
+			            <span><b><i>，</i><em></em></b></span>
+			            <span><b><i>哪一个</i><em></em></b></span>
+			            <span><b><i>让你</i><em></em></b></span>
+			            <span><b><i>束手无策</i><em></em></b></span>
+			            <span><b><i>？</i><em></em></b></span>
+			        </p>
+			    </div>    
+			</div>			
+			<dd class="index_zi2">
+				<dl>① 新品牌如何快速提升在网络上的知名度？</dl>
+				<dl>② 网络营销越来越重要，传统品牌如何网上发力？</dl>
+				<dl>③ 投放费用有限，如何利用网络传播最大程度曝光品牌？</dl>
+				<dl>④ 网络营销推广手段和渠道过于单一？</dl>
+				<dl>⑤ 移动端传播趋势越来越明显，具体怎么做？</dl>
+				<dl>⑥ 网络推广成本越来越高，但效果不好怎么办？</dl>
+				<dl>⑦ 网络推广无法做到精准定位怎么办？</dl>
+				<dl>⑧ 品牌线上线下营销断裂，无法形成有效衔接怎么办？</dl>
+			</dd>
+		</div>
+		
+		<div class="index_don">
+			<ul>
+				<li>
+					<div class="img-box tu1 show"></div>	
+					<h2>海量资源全网覆盖</h2>
+					<p>主流媒体长期深度合作</p>
+					<p>搜索引擎营销资源</p>
+					<p>热门视频网站、APP、论坛、社区、直播资源</p>
+					<p>微博/微信/KOL大V</p>
+				</li>
+				<li>
+					<div class="img-box tu2"></div>					
+					<h2>品牌营销策划智囊团</h2>
+					<p>聚集广告创意、营销推广、品牌策划</p>
+					<p>等领域众多资深专家</p>
+					<p>曾服务于各大知名品牌企业</p>
+					<p>非常成熟的品牌运作能力</p>
+					<p>拥有独立而完整的品牌全案系统</p>
+				</li>
+				<li>
+					<div class="img-box tu3"></div>					
+					<h2>顶尖技术团队</h2>
+					<p>来自百度、阿里等200+名IT精英</p>
+					<p>分布在上海、湖南、山西等地</p>
+					<p>全方位解决技术开发、编程代码、软件测试等</p>
+					<p>为数百家品牌提供长期的技术支持</p>
+				</li>
+				<li>
+					<div class="img-box tu4"></div>					
+					<h2>实战经验丰富</h2>
+					<p>一流的创意策划团队</p>
+					<p>数十年互联网服务经验</p>
+					<p>服务腾讯、万科、可口可乐、蒲地蓝牙膏</p>
+					<p>大众、泉度卫浴、滴滴出行等数百家品牌</p>
+					<p>更具敏锐的行业判断力和市场洞察力</p>
+					<p>提供专业权威的品牌营销解决方案</p>
+				</li>
+				<li>
+					<div class="img-box tu5"></div>
+					<h2>全面整合营销</h2>
+					<p>全面而系统的网络整合营销策划</p>
+					<p>网络推广策划/品牌活动策划</p>
+					<p>口碑与社会化媒体营销</p>
+					<p>创意设计与制作</p>
+					<p>搜索引擎营销/微博微信营销</p>
+					<p>网络媒介代理/公关策划</p>
+					<p>网络舆情监控</p>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="index_an">
+			<p class="index_an1">专注企业网络营销解决方案！</p>
+			<p class="index_an2">多平台、精内容、高匹配、强曝光，聚焦网络！</p>
+			<p class="index_an2">通过网络强化品牌与消费者之间交互式的双向互动，线上全渠道推广品牌，实现流量变现。</p>
+			<img src="img/shouye12.gif" style="margin-top: 20px;">
+		</div>
+		
+		<div class="index_our">
+			<div class="index_our_xiao">
+				<div class="index_our_left">
+		            <ul>
+		                <li class="show">
+		                   	<h3>Our Services</h3>
+		                    <h4>网络整合营销策划</h4>
+		                    <h5>根据品牌特性、行业、产品、目标人群深入研究分析<br>
+		                    	制定符合品牌现状的整合营销策略，并通过策划相关活动、主题内容，加强品牌互动体验交流！</h5>
+		                    <h6>
+		                    	品牌策略/新品推广策略<br/>
+			                    媒介策略/预算制定<br/>
+			                    网络推广方案策划  品牌活动策划<br/>
+			                    线上线下广告/互动整合策略<br/>
+			                    与其他代理商的合作<br/>
+			                    监测与报告<br/>
+		                    </h6>
+		                </li>
+		                <li>
+		                    <h3>Our Services</h3>
+		                    <h4>内容创意营销</h4>
+		                    <h5>对推广主题进行创意发散<br>
+		                    	以富表现力的手法与高效的优化技术帮助品牌得到充分诠释与展现！</h5>
+		                   	<h6> H5创意营销<br/>
+		                    	PEM精准营销网站分析、规划与建设<br/>
+		                    	广告创意及各种形式的创意设计<br/>
+		                    	程序开发与维护/数据库建设<br/>
+		                   	</h6>
+		                </li>
+		                <li>
+		                    <h3>Our Services</h3>
+		                    <h4>网络口碑与社交媒体</h4>
+		                    <h5>洞悉网络舆论特性，掌控舆论动向<br>
+		                   		 通过有效资源与强势内容运营为品牌建立多维度良性口碑！</h5>
+		                    <h6>网络口碑名誉策划<br/>
+		                    	网络新闻发布<br/>
+		                    	论坛 问答营销<br/>
+		                    	官方微博微信运营/微商城定制<br/>
+		                    	舆情监控/网络公关策划<br/>
+		                    </h6>
+		                </li>
+		                <li>
+		                    <h3>Our Services</h3>
+		                    <h4>搜索优化</h4>
+		                    <h5>依据互联网监测，可衡量、可评估的数字化营销理论，利用多维度营销工具为品牌分析<br>
+		                    	研究消费者行为规律，及时分析提炼优化途径，提供专业的搜索引擎营销优化服务！</h5>
+		                    <h6>网站搜索排名优化<br/>
+		                    	SEO自然搜索引擎优化<br/>
+		                    	SEM付费竞价推广管理<br/>
+		                    </h6>
+		                </li>
+		                <li>
+		                    <h3>Our Services</h3>
+		                    <h4>媒介代理</h4>
+		                    <h5>分析目标人群属性提供媒介策略，提供含PC端及移动端的丰富媒介资源采购、执行及数据分析<br/>
+		                 	  	帮助品牌实现媒介投放效果！</h5>
+		                    <h6>媒介用户群比较分析/媒介效果预估<br/>
+			                    挖掘和评估新媒体机会<br/>
+			                    量身定制媒介推广计划<br/>
+			                    与媒介沟通和协调<br/>
+			                    优化的媒介组合购买<br/>
+			                    媒介投放管理/投放效果回执<br/>
+		                    </h6>
+		                </li>
+		            </ul>
+		        </div>				
+				<ul class="index_our_right">
+					<li style="background: #333;" class="head"><div><p>网络整合营销策划</p></div></li>
+					<li style="background: #434343;"><div><p>内容创意营销</p></div></li>
+					<li style="background: #535353;"><div><p>网络口碑与社交媒体</p></div></li>
+					<li style="background: #626262;"><div><p>搜索优化</p></div></li>
+					<li style="background: #707070;"><div><p>媒介代理</p></div></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="index_vi">
+			<div class="index_vi_left">
+				<p class="index_vi_left1">NEW</p>
+				<p class="index_vi_left2">案例介绍</p>
+				<div class="index_vi_left3"></div>
+				<p class="index_vi_left4">这是全新BMW M2即将上市时，宝马团队打造的一款全新H5作品。<br />
+	全新的创意，当天传播量即达<span>20,000,000</span>次</p>
+	
+				<p class="index_vi_left5">创意亮点</p>
+				<p class="index_vi_left6">创意上，炫酷的新车预售宣传，吸引眼球，突出产品亮点，曝光品牌。<br />
+	策划上，用H5+TVC的技术实现，H5负责交互+静态展现，动态炫酷展现。</p>
+	
+				<img src="img/erweima.jpg" / class="index_vi_left7">
+			</div>			
+			<div class="index_vi_right">
+				<div class="index_vi_right1">
+					<video width="220" height="450" src="img/shipin.mp4" class="index_vi_right2" controls="controls"></video>
+				</div>
+			</div>
+		</div>				
+		<div class="ming">
+			<img src="img/chuanyi.png">
+		</div>
+		<ul class="anli_quan">
+			<li>
+				<img src="img/andilan.jpg">
+				<div class="anli_quan1"><a href="href.html" style="color: #ffd92e;"><p class="anli_zi">VIEW MORE<span>+</span></p></a></div>
+			</li>
+			<li>
+				<img src="img/anli2.png">
+				<div class="anli_quan1"><a href="href.html" style="color: #ffd92e;"><p class="anli_zi">VIEW MORE<span>+</span></p></a></div>
+			</li>
+			<li>
+				<img src="img/anli3.png">
+				<div class="anli_quan1"><a href="href.html" style="color: #ffd92e;"><p class="anli_zi">VIEW MORE<span>+</span></p></a></div>
+			</li>
+			<li>
+				<img src="img/anli4.png">
+				<div class="anli_quan1"><a href="href.html" style="color: #ffd92e;"><p class="anli_zi">VIEW MORE<span>+</span></p></a></div>
+			</li>
+			<li>
+				<img src="img/anli5.png">
+				<div class="anli_quan1"><a href="href.html" style="color: #ffd92e;"><p class="anli_zi">VIEW MORE<span>+</span></p></a></div>
+			</li>
+			<li>
+				<img src="img/anli6.jpg">
+				<div class="anli_quan1"><a href="href.html" style="color: #ffd92e;"><p class="anli_zi">VIEW MORE<span>+</span></p></a></div>
+			</li>
+			<li>
+				<img src="img/anli7.jpg">
+				<div class="anli_quan1"><a href="href.html" style="color: #ffd92e;"><p class="anli_zi">VIEW MORE<span>+</span></p></a></div>
+			</li>
+			<li>
+				<img src="img/anli8.jpg">
+				<div class="anli_quan1"><a href="href.html" style="color: #ffd92e;"><p class="anli_zi">VIEW MORE<span>+</span></p></a></div>
+			</li>
+			<li>
+				<img src="img/anli9.jpg">
+				<div class="anli_quan1"><a href="href.html" style="color: #ffd92e;"><p class="anli_zi">VIEW MORE<span>+</span></p></a></div>
+			</li>
+			<li>
+				<img src="img/anli10.jpg">
+				<div class="anli_quan1"><a href="href.html" style="color: #ffd92e;"><p class="anli_zi">VIEW MORE<span>+</span></p></a></div>
+			</li>
+			<li>
+				<img src="img/anli11.jpg">
+				<div class="anli_quan1"><a href="href.html" style="color: #ffd92e;"><p class="anli_zi">VIEW MORE<span>+</span></p></a></div>
+			</li>
+			<li>
+				<img src="img/anli12.jpg">
+				<div class="anli_quan1"><a href="href.html" style="color: #ffd92e;"><p class="anli_zi">VIEW MORE<span>+</span></p></a></div>
+			</li>
+		</ul>
+		
+		<div class="index_tu">
+			<div class="index_tu_xiao vice">
+				<div class="index_tu_left">
+					<p class="index_tu_left1">Like What You See?</p>
+					<div class="left">					
+						<p class="index_tu_left2">没看够？别着急，我们还有→</p>
+					</div>
+				</div>
+				<div class="index_tu_right">
+					<a href="#">view more +</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="index_lian">
+			<!--<p>MEDIA RESOURCE</p>
+			<p>媒介资源</p>-->
+			<div class="index_lian1">
+				<div class="swiper-container1">
+			        <div class="swiper-wrapper">
+			            <div class="swiper-slide"><img src="img/111.png"></div>
+			            <div class="swiper-slide"><img src="img/112.png"></div>
+			            <div class="swiper-slide"><img src="img/113.png"></div>
+			            <div class="swiper-slide"><img src="img/114.png"></div>
+			            <div class="swiper-slide"><img src="img/115.png"></div>
+			            <div class="swiper-slide"><img src="img/116.png"></div>
+			            <div class="swiper-slide"><img src="img/117.png"></div>
+			        </div>
+			        <!-- Add Pagination -->
+		   	 	</div>
+			</div>
+			<div class="index_lian2">
+				<div class="swiper-container1">
+			        <div class="swiper-wrapper">
+			           	<div class="swiper-slide"><img src="img/118.png"></div>
+			            <div class="swiper-slide"><img src="img/118.png"></div>
+			            <div class="swiper-slide"><img src="img/131.png"></div>
+			            <div class="swiper-slide"><img src="img/127.png"></div>
+			            <div class="swiper-slide"><img src="img/122.png"></div>
+			            <div class="swiper-slide"><img src="img/123.png"></div>
+			            <div class="swiper-slide"><img src="img/132.png"></div>
+			        </div>
+			        <!-- Add Pagination -->
+		   	 	</div>
+			</div>
+		</div>
+		
+		
+		<div class="index_hez">
+			<h1 class="index_hez1">OUR CLIENTS</h1>
+			<p class="index_hez2">我们的客户</p>
+			<div class="swiper-container2">
+		        <div class="swiper-wrapper">
+		            <div class="swiper-slide"><img src="img/m1.png" class="img1"><img src="img/m1.png" class="img2"></div>
+		            <div class="swiper-slide"><img src="img/m8.png" class="img1"><img src="img/m8.png"class="img2"></div>
+		            <div class="swiper-slide"><img src="img/m2.png" class="img1"><img src="img/m2.png"class="img2"></div>
+		            <div class="swiper-slide"><img src="img/m9.png" class="img1"><img src="img/m9.png"class="img2"></div>
+		            <div class="swiper-slide"><img src="img/m3.png" class="img1"><img src="img/m3.png"class="img2"></div>
+		            <div class="swiper-slide"><img src="img/m10.png" class="img1"><img src="img/m10.png"class="img2"></div>
+		            <div class="swiper-slide"><img src="img/m4.png" class="img1"><img src="img/m4.png"class="img2"></div>
+		            <div class="swiper-slide"><img src="img/m14.png"class="img1"><img src="img/m14.png"class="img2"></div>
+		            <div class="swiper-slide"><img src="img/m5.png" class="img1"><img src="img/m5.png"class="img2"></div>
+		            <div class="swiper-slide"><img src="img/m12.png" class="img1"><img src="img/m12.png"class="img2"></div>
+		            <div class="swiper-slide"><img src="img/m6.png" class="img1"><img src="img/m6.png"class="img2"></div>
+		            <div class="swiper-slide"><img src="img/m13.png" class="img1"><img src="img/m13.png"class="img2"></div>
+		            <div class="swiper-slide"><img src="img/m7.png" class="img1"><img src="img/m7.png"class="img2"></div>
+		            <div class="swiper-slide" id="zuozuo"><img src="img/m11.png" class="img1"><img src="img/m11.png"class="img2"></div>
+		            
+		        </div>
+		        <!-- Add Pagination -->
+		    </div>
+		</div>
+		<script>
+				$(".swiper-container2 .swiper-slide").hover(function(){
+					$(this).find('.img2').show();
+					$(this).find('.img1').removeClass().addClass('img1');
+					$(this).find('.img2').removeClass().addClass('img2');
+					$(this).find('.img1').addClass("test");
+					$(this).find('.img2').addClass('test2');
+				},function(){
+					
+					$(this).find('.img1').removeClass().addClass('img1');
+					$(this).find('.img2').removeClass().addClass('img2');
+					$(this).find('.img1').addClass("test2");
+					$(this).find('.img2').addClass('test');
+					$(this).find('.img2').animate({'display':'none'},1000);
+				});
+		</script>
+		
+		<div class="index_tai">
+			<div class="index_tai_left">
+				<p class="index_tai_left1">最新动态</p>
+				<ul class="index_tai_left2">
+					<li><a href="">探班一线营销策划绿海茶油主KV拍</a></li>
+					<li><a href="">一线营销策划 江西水投生态集团</a></li>
+					<li><a href="">一线营销策划 蒲地蓝日化第二阶</a></li>
+					<li><a href="">热线庆祝一线营销策划与上海觅鱼</a></li>
+					<li><a href="">一线营销策划 硒倍健成为中国航</a></li>
+					<li><a href="">一线营销策划 蒲地蓝儿童护理牙</a></li>
+				</ul>
+				
+				<a href=""><div class="index_tai_left3">view more+</div></a>
+			</div>
+			
+			<div class="index_tai_right">
+				<p class="index_tai_right1">营销观点</p>
+				<ul class="index_tai_right2">
+					<li><a href="">品牌策划|论企业品牌价值提升的</a></li>
+					<li><a href="">休闲食品行业市场发展趋势分析</a></li>
+					<li><a href="">营销策划|植物蛋白饮料的市场营</a></li>
+					<li><a href="">品牌策划营销模式那些事儿</a></li>
+					<li><a href="">论电子商务对市场营销过程的影响</a></li>
+					<li><a href="">市场营销策略，你get到了多少</a></li>
+				</ul>
+				
+				<a href=""><div class="index_tai_right3">view more+</div></a>
+			</div>
+		</div>
+		
+		<div class="index_hou">
+			<img src="img/dianhua.gif">
+			<p><img src="img/fuwu3.png" class="index_hou1">4008935828</p>
+		</div>
+		<!--底部开始-->
+		<div class="footer">
+			<div class="footer_xiao">
+				<ul class="footer_xiao1">
+					<li>网络整合营销</li>
+					<li>网络营销策划</li>
+					<li>网络品牌营销</li>
+					<li>网络活动策划</li>
+					<li>网络媒体发布</li>
+					<li>网络传播推广</li>
+					<li>网络互动传播</li>
+					<li>网络公关传播</li>
+				</ul>
+				<ul class="footer_xiao1">
+					<li>互联网营销</li>
+					<li>网络问答营销</li>
+					<li>网络论坛营销</li>
+					<li>网络新闻营销</li>
+					<li>网络视频营销</li>
+					<li>网络舆情监控</li>
+					<li>品牌口碑营销</li>
+					<li>品牌名誉建设</li>
+				</ul>
+				<ul class="footer_xiao1">
+					<li>自媒体运营</li>
+					<li>搜索引擎营销</li>
+					<li>SEM（搜索引擎推广）</li>
+					<li>SEO（搜索引擎优化）</li>
+					<li>网络传播</li>
+					<li>网络推广</li>
+					<li>新闻发布</li>
+					<li>全网营销</li>
+				</ul> 
+				<ul class="footer_xiao1">
+					<li>Social营销</li>
+					<li>微信营销</li>
+					<li>微博营销</li>
+					<li>H5营销</li>
+					<li>事件营销</li>
+					<li>知乎营销</li>
+					<li>互动营销</li>
+					<li>公关营销</li>
+				</ul>
+				<div class="foot_shu">
+					
+				</div>
+				<ul class="footer_xiao1">
+					<li>联系我们</li>
+					<li style="margin-top: 20px;">服务电话   <span class="foot_call"> 4008935828 </span></li>
+					<li style="margin-left: 70px;">021-65909799</li>
+					<li>上海市大连路990号海上海大厦1009</li>
+					<li>邮箱：service@esune.com</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer_xia">
+			<div class="footer_xia_xiao">
+				Complexity  HTML  Theme-   Web  Design  by一线营销策划 沪ICP备11030842号-1
+			</div>
+		</div>
+		<!--底部结束-->
+		<div class="top">∧</div>
+	</body>
+	<script src="js/index.js"></script>
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script>
+		
+ 	var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+//      nextButton: '.swiper-button-next',
+//      prevButton: '.swiper-button-prev',
+        parallax: true,
+        speed: 600,
+        autoplay:2000,
+        loop:true,
+        autoplayDisableOnInteraction : false,
+        onlyExternal : true,
+        onSlideNextEnd: function(swiper){
+        	diyi();
+        	dier();
+        	disan();
+        	disi();
+	    },
+	    onSlidePrveEnd: function(swiper){
+        	diyi();
+        	dier();
+        	disan();
+        	disi();
+	    }
+    });
+    
+    $('#xia').click(function(){
+    		swiper.slideNext();
+    })
+     $('#shang').click(function(){
+    		swiper.slidePrev();
+    })
+    var swiper1 = new Swiper('.swiper-container1', {
+        autoplay : 2000,     
+        loop : true,
+        freeMode:true,
+        onlyExternal : true,
+        
+        slidesPerView : 7
+//      slidesPerGroup : 1
+    });
+    
+    var swiper2 = new Swiper('.swiper-container2', {
+        slidesPerView: 7,
+        slidesPerColumn: 2,
+        onlyExternal : true,
+        
+        paginationClickable: true,
+        spaceBetween: 30,
+        autoplay:2000
+    });
+    
+    
+   
+$('#xia').click(function(){
+	console.log(swiper.activeIndex)
+	
+})
+function diyi(){
+	var t = 100;
+	Time = setInterval(function(){
+		t+=100;
+		if(t<=5000){
+			$('.diyi').text(t)
+		}else{
+			clearInterval(Time)
+			t = 10;
+		}
+		
+	},30)
+}
+function dier(){
+	var l = 100;
+	Ti = setInterval(function(){
+		l+=10;
+		if(l<=1000){
+			$('.dier').text(l)
+		}else{
+			clearInterval(Ti)
+		}
+		
+	},15)
+}
+function disan(){
+	var h = 10;
+	Tim = setInterval(function(){
+		h+=10;
+		if(h<=150){
+			$('.disan').text(h)
+		}else{
+			clearInterval(Tim)
+			
+		}
+		
+	},100)
+}
+function disi(){
+	var g = 100;
+	Ki = setInterval(function(){
+		g+=100;
+		if(g<=5000){
+			$('.disi').text(g)
+		}else{
+			clearInterval(Ki)
+			
+		}
+		
+	},30)
+}
+//function disi(){
+//	$('#disi').text(d)
+//	var d = 100;
+//	var ni = setInterval(fun,30)
+//	function fun(){
+//		d+=100;
+//		if(d<=5000){
+//			$('#disi').text(d)
+//		}else{
+//			clearInterval(ni)
+//			d = 0;
+//			ni = setInterval(fun,30)
+//	}
+//		
+//}
+//	}
+
+	</script>
+</html>

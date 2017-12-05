@@ -1,0 +1,132 @@
+.map{
+	width: 100%;
+	height: 707px;
+	position: relative;
+}
+.map_xiao{
+	width: 1290px;
+	margin: 0 auto;
+}
+.map_xiao_left{
+	width: 477px;
+	height: 280px;
+	float: left;
+	padding-top: 140px;
+}
+.map_xiao_right{
+	width: 668px;
+	height: 420px;
+	float: right;
+	margin-top: 140px;
+}
+.map_xiao_left1{
+	font-family: "arial black";
+	font-size: 55px;
+	/*font-weight: bold;*/
+	letter-spacing: 4px;
+}
+.map_xiao_left2{
+	font-size: 55px;
+	margin-top: 20px;
+	color: #0D0D0D;
+}
+.map_xiao_left3{
+	width: 90px;
+	height: 9px;
+	background: #000000;
+	margin-top: 40px;
+}
+.map_xiao_left4{
+	margin-top: 60px;
+}
+.map_xiao_left5{
+	font-size: 24px;
+	line-height: 45px;
+	color: #0D0D0D;
+}
+.map_xiao_left5 img{
+	position: relative;
+	padding-right: 20px;
+	top: 10px;
+}
+
+.map_xiao_left6{
+	font-size: 24px;
+	line-height: 45px;
+}
+.map_xiao_left6 img{
+	position: relative;
+	padding-right: 20px;
+	top: 5px;
+}
+.fome_mifen{
+	width: 715px;
+	height: 56px;
+	background: url(../img/fome_fei.gif) no-repeat left;
+	position: absolute;
+	top: 362px;
+	left: 585px;
+	transform: rotate(-9deg);
+}
+@media screen and (max-width:1300px) {
+	.map{
+		height: auto;
+	}
+	.map_xiao{
+		width: 90%;
+		overflow: hidden;
+	}
+	.map_xiao_left{
+		width: 45%;
+		height: auto;
+		padding-top: 20px;
+		padding-bottom: 0px;
+	}
+	.map_xiao_right{
+		width: 50%;
+		margin-top: 10px;
+		margin-bottom: 40px;
+	}
+	.fome_mifen{
+		display: none;
+	}
+}
+@media screen and (max-width:768px) {
+	.map_xiao_left{
+		width: 100%;
+		text-align: center;
+		font-size: 16px;
+	}
+	.map_xiao_left3{
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+	.map_xiao_left1{
+		font-size: 20px;
+	}
+	.map_xiao_left2{
+		font-size: 20px;
+	}
+	.map_xiao_right{
+		width: 100%;
+		height: 300px;
+	}
+	.map_xiao_left4{
+		margin-top: 20px;
+		
+	}
+	.map_xiao_left5 img{
+		top: 5px;
+		width:5%;
+	}
+	.map_xiao_left6 img{
+		width:5%;
+		top: 3px;
+	}
+	.map_xiao_left5{
+		font-size: 14px;
+	}
+	.map_xiao_left6{
+		font-size: 14px;
+	}
+}

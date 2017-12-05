@@ -1,0 +1,132 @@
+.anli_we{
+	text-align: center;
+	color: #4e4e4e;
+	font-size: 45px;
+	font-weight: bold;
+	padding: 70px 0 70px 0;
+}
+.anli_quan{
+	width: 100%;
+	height: 969px;
+	overflow: hidden;
+}
+.anli_quan li{
+	float: left;
+	display: block;
+	width: 25%;
+	height: 323px;
+	position: relative;
+	overflow: hidden;
+	
+}
+.anli_quan li:hover .anli_quan1{
+		top: 0;
+		transition: 0.5s all;
+}
+.anli_quan li:hover .anli_zi{
+	opacity: 1;
+	transition: 0.5s;
+	transition-delay: 0.5s;
+}
+.anli_quan li img{
+	width: 100%;
+	height: 100%;
+}
+.anli_quan1{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0;
+	font-size: 26px;
+	color: #ffd92e;
+	text-align: center;
+	line-height: 323px;
+	letter-spacing: 2px;
+	/*-webkit-text-stroke: 1px black;*/
+    /*font-weight: bold;*/
+    top: -323px;
+}
+.anli_quan1.index{
+	background: rgba(0,0,0,0.7);
+	-webkit-text-stroke: 0px black;
+	font-weight:normal;
+}
+.anli_quan1 span{
+	position: relative;
+	top: -20px;
+}
+.anli_zi{
+	opacity: 0;
+}
+.anli_fanye{
+	padding: 63px 0 63px 0;
+	width: 400px;
+	margin: 0 auto;
+}
+.anli_fanye li{
+	float: left;
+	display: block;
+	width: 40px;
+	text-align: center;
+	color: #333333;
+	cursor: pointer;
+}
+.anli_fanye li:hover{
+	color: #ffd92e;
+	
+}
+.Anli_fen{
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+	display: none;
+}
+.Anli_fen li{
+	display: block;
+	width: 30%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #CCCCCC;
+	border-radius: 8px;
+	font-size: 14px;
+	float: left;
+}
+.Anli_fen li:last-child{
+	float: right;
+}
+.Anli_fen li:hover{
+	border: 1px solid #ffd60d;
+}
+@media screen and (max-width:1300px) {
+	.anli_quan{
+		height: auto;
+	}
+	.anli_quan li{
+		width: 33%;
+	}
+}
+@media screen and (max-width:768px) {
+	.anli_quan{
+		height: auto;
+	}
+	.anli_quan li{
+		width: 50%;
+		height: 200px;
+	}
+	
+	.anli_quan1{
+		line-height: 200px;
+		font-size: 18px;
+	}
+	.Anli_fen{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		display: block;
+	}
+	.anli_fanye{
+		display: none;
+	}
+
+}
