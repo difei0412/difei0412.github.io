@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>单页应用网页播放器</title>
+    <meta name="description" content="单页应用网页播放器">
+    <meta name="keywords" content="喜马拉雅网页播放器,单页应用">
+    <link rel="stylesheet" href="css/libs.css">
+    <style type="text/css">
+		.main-content{
+			text-align: center;
+			padding-top:70px; 
+		}
+		.pages a{
+			display: block;
+		}
+		.page-header {
+		    height: 380px;
+		    width: 100%;
+		    padding: 0;
+		}
+    </style>
+</head>
+<body>
+	<table class="page-header">
+		<td>
+		      <div style="position:relative;z-index: 9999"></div><h1 class="project-name">YOU</h1>
+		      <h2 class="project-tagline">创建单页应用程序,一行代码就够了</h2>
+		      <a href="javascript:;" class="btn" target="_Blank">GOOD</a>
+		      <a href="javascript:;" class="btn" target="_Blank">LUCK</a>
+		      <a href="javascript:;" class="btn" target="_Blank">TO</a>
+		      <a href="javascript:;" class="btn" target="_Blank">YOU</a>
+		      <a href="javascript:;" class="btn" target="_Blank">！</a>
+	    </td>
+    </table>
+    <div class="main-content">
+    	<div class="pages">
+			<a href="good.html">good</a>
+			<a href="luck.html">luck</a>
+			<a href="to.html">to</a>
+			<a href="you.html" style="color:#f60">you</a>
+			<p>您也可以尝试浏览器的前进/后退</p>
+		</div>
+    </div>
+    <script src="js/singlePage.js?singlePage/box.html"></script>
+	<!--     注意:singlePage.js必须放在所有js之前body之底!保证它能够优先被执行 -->
+	<!--     通过"?singlePage/global.html"的方式引入全局资源,比如global.html中是一个全局播放器,那么该播放器不会因为页面切换而受到任何影响 -->
+</body>
+</html>
