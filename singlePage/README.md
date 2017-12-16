@@ -2,4 +2,4 @@
 
 通过"?singlePage/box.html"的方式引入【全局资源】,比如box.html中是一个全局播放器,那么该播放器不会因为页面切换而受到任何影响
 
-singlePage/box.html 路径是从根目录开始 /singlePage/box.html
+?singlePage/box.html 路径是从根目录开始 /singlePage/box.html
