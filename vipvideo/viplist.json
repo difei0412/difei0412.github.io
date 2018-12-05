@@ -27,24 +27,36 @@
     ],
     "list": [
     	{
-            "name": "百域阁视频",
+            "name": "默认一",
             "url": "http://api.baiyug.cn/vip/index.php?url="
         },
         {
-            "name": "高端解析",
-            "url": "http://jx.vgoodapi.com/jx.php?url="
+            "name": "推荐二",
+            "url": "http://jx.ejiafarm.com/dy.php?url="
         },
         {
-            "name": "无名小站",
-            "url": "http://www.82190555.com/index/qqvod.php?url="
+            "name": "线路三",
+            "url": "http://www.90go.org/yun.php?url="
         },
         {
-            "name": "超清接口2",
-            "url": "http://jiexi.92fz.cn/player/vip.php?url="
+            "name": "线路四",
+            "url": "http://api.wlzhan.com/sudu/?url="
         },
         {
             "name": "线路五",
-            "url": "http://aikan-tv.com/?url="
+            "url": "http://yun.mt2t.com/yun?url="
+        },
+        {
+            "name": "线路六",
+            "url": "http://jiexi.071811.cc/jx.php?url="
+        },
+        {
+            "name": "线路七",
+            "url": "http://api.lequgirl.com/?url="
+        },
+        {
+            "name": "线路八",
+            "url": "http://jiexi.92fz.cn/player/vip.php?url="
         }
     ]
 }
